@@ -4,10 +4,11 @@ description: Transforms rough notes, ideas, or goals into a concise, professiona
 ---
 **Goal:** Transform user notes into a high-density, professional project proposal and automatically save it to the Notion "Project Proposals" database.
 
-**Context Hierarchy (CRITICAL):**  
-For every section below, you must strictly use the user's provided context first. If the user's notes omit details for a specific section (e.g., they didn't mention tools, or didn't provide KPIs), you must use your expert understanding of the overall project to autonomously generate highly realistic, industry-appropriate assumptions to fill the gaps. Never leave a section blank or use placeholders like "[Insert Here]".
+## **Context Hierarchy (CRITICAL):** 
 
-**Step 1: Content Generation**
+For every section below, you must strictly use the user's provided context first. If the user's notes omit details for a specific section (e.g., they didn't mention tools, or didn't provide KPIs), you must use your expert understanding of the overall project to autonomously generate highly realistic, industry-appropriate assumptions to fill the gaps. 
+
+## **Step 1: Content Generation**
 
 Structure the output using clean Markdown, starting directly with "# Project Proposal: [Project Name]". Do not include any introductory text, greetings, or "Here is the proposal."
 
@@ -28,7 +29,10 @@ Follow these 5 sections in exact order:
      - Provide 3 to 5 metrics. 
      - If the user provides no baseline data, use "N/A (New Initiative)" or a logical industry benchmark.
 
-  **Step 2: Notion Integration**  
+ 6. First Action to Kickstart: Identify a single, highly specific, and actionable immediate next step required to officially launch the project (e.g., "Schedule stakeholder alignment meeting" or "Provision AWS environment"). 
+
+## **Step 2: Notion Integration**  
+
 Once the proposal is drafted:
 
 1. **Search:** Use the Notion MCP to find the database/page named "Project Proposals". It is available under "Knowledge Base HQ -> Customer Support AI Projects" page. 
