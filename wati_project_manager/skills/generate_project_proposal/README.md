@@ -19,12 +19,13 @@ When this skill is activated, the AI follows a strict professional protocol:
 4.  **One-Page Format:** The output is mathematically constrained to fit on a single printed page (approx. 400-600 words).
 
 ## 📋 The Proposal Structure
-Every output will contain these five sections in order:
+Every output will contain these six sections in order:
 1.  **Project Summary:** High-level business value and problem statement.
 2.  **Tools & Technologies:** The specific technical stack required.
 3.  **Scope:** Clear "In-Scope" and "Out-of-Scope" lists to prevent scope creep.
 4.  **Plan:** 3–5 chronological milestones with target dates.
 5.  **Measurable KPIs:** A data table containing Metrics, Baselines, Targets, and Measurement Methods.
+6.  **First Action to Kickstart:** A single, highly specific immediate next step required to officially launch the project.
 
 ## 💡 Tips for Best Results
 *   **Mention Constraints:** If you have a specific deadline (e.g., "Must be done by Q4") or a specific tool you must use (e.g., "Must use AWS"), include that in your prompt.

@@ -4,11 +4,11 @@ The HR Benefits Assistant project aims to deploy an intelligent conversational i
 
 ### 2. Tools & Technologies
 
-- **LLM Engine:** OpenAI GPT-4o via Azure Cognitive Services
-- **Vector Database:** Pinecone (for Retrieval Augmented Generation)
-- **Frameworks:** LangChain and FastAPI
-- **Frontend:** React-based component integrated into existing SharePoint portal
-- **Data Source:** Secure PDF/Docx ingestion from internal HR Knowledge Base
+- **LLM Engine:** OpenAI GPT-4o via Azure Cognitive Services
+- **Vector Database:** Pinecone (for Retrieval Augmented Generation)
+- **Frameworks:** LangChain and FastAPI
+- **Frontend:** React-based component integrated into existing SharePoint portal
+- **Data Source:** Secure PDF/Docx ingestion from internal HR Knowledge Base
 
 ### 3. Scope
 
@@ -27,10 +27,10 @@ The HR Benefits Assistant project aims to deploy an intelligent conversational i
 
 ### 4. Plan
 
-- **Week 2:** Completion of Knowledge Base ingestion and Vector Database indexing.
-- **Week 4:** Alpha release for HR department testing and prompt tuning.
-- **Week 6:** Beta launch to a pilot group of 50 employees.
-- **Month 2:** Full enterprise-wide deployment and project handover.
+- **Week 2:** Completion of Knowledge Base ingestion and Vector Database indexing.
+- **Week 4:** Alpha release for HR department testing and prompt tuning.
+- **Week 6:** Beta launch to a pilot group of 50 employees.
+- **Month 2:** Full enterprise-wide deployment and project handover.
 
 ### 5. Measurable KPIs
 
@@ -40,3 +40,7 @@ The HR Benefits Assistant project aims to deploy an intelligent conversational i
 | HR Ticket Volume      | 150 Inquiries/Week   | 90 Inquiries/Week     | Zendesk/ServiceNow Reporting |
 | Accuracy Rate         | N/A (New Initiative) | > 95%                 | Human-in-the-loop Audit      |
 | Employee Satisfaction | 3.2 / 5.0            | 4.5 / 5.0             | Post-Interaction Survey      |
+
+### 6. First Action to Kickstart
+
+Schedule a stakeholder alignment meeting with HR leadership and IT security to define data access protocols and confirm compliance requirements for handling employee benefits data.
